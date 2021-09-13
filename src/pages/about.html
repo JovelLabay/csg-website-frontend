@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/about.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+        </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+    <title>CSG | ABOUT PAGE</title>
+</head>
+
+<body>
+
+    <section id="windowEffect">
+
+        <!-- THE NAV -->
+        <nav>
+            <div class="navigation" id="theNavigation">
+                <div class="container nav">
+                    <!-- THIS IS FOR NAV LOGO -->
+                    <div class="logo">
+                        <a href=""><img id="theLogo" src="./img/sample.png" alt=""></a>
+                    </div>
+                    <!-- THIS IS FOR NAV LINKS -->
+                    <div class="links">
+                        <a id="theLinks" href="../index.html">Home</a>
+                        <a id="theLinks" href="./event.html">Events</a>
+                        <div class="nav-dropdown-hover">
+                            <a id="theLinksHover">CSG <i class="fas fa-sort-down"></i></a>
+                            <div class="nav-drop-down">
+                                <a href="">About CSG</a>
+                                <a href="">Offices & Transparancy</a>
+                                <a href="">Iniatives</a>
+                            </div>
+                        </div>
+                        <a id="theLinks" href="./contact.html">Contact</a>
+                    </div>
+                    <!-- THIS IS FOR NAV SEARCH -->
+                    <div class="search">
+                        <div class="nav-search">
+                            <input type="text" name="" id="theSearchBar">
+                            <button>Search</button>
+                        </div>
+                        <a id="theSearchLink"><i class="fas fa-search"></i></a>
+                    </div>
+                    <!-- THIS IS FOR NAV MENU BUTTON WHEN MOBILE -->
+                    <div class="mobile-menu">
+                        <a id="theMobileMenu" onclick="openMenu()"><i class="fas fa-bars"></i></a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- THE MAIN -->
+        <main>
+
+            <!-- FOR THE CAROUSEL -->
+            <div class="carousel-content">
+                <div class="image-carousel">
+                    <h2>IMG CAROUSEL</h2>
+                </div>
+            </div>
+
+            <!-- ABOUT CSG -->
+            <div class="about-csg">
+                <div class="csg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6" id="theCsgAboutImg">
+                                <h3 id="imgCsg">IMG ABOUT CSG</h3>
+                            </div>
+                            <div class="col-md-6" id="theCsgAbout">
+                                <h3>ABOUT CSG</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod odit omnis neque,
+                                    ex ratione, nihil voluptas provident pariatur cupiditate repellat iste quam quos
+                                    consequatur explicabo iusto, non saepe fugit magnam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DEPARTMENT OFFICES -->
+            <div class="department-office">
+                <div class="container">
+                    <div class="department-title">
+                        <h4 id="departTitle">Department and Offices</h4>
+                    </div>
+
+                    <!-- DEPARTMENT TOGGLE -->
+                    <div class="department-btn">
+
+                        <div class="department">
+                            <div class="depart-btn-title">
+                                <a class="office-btn a">Department of External Affairs</a>
+                                <div id="yawa1" class="kulira"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                            <div class="depart-content one">
+                                <div class="row department-right-left">
+                                    <div class="col-md-4">
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt,
+                                            praesentium. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                                            cupiditate nemo minima quod temporibus voluptates eos exercitationem
+                                            voluptatem aperiam optio.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="department">
+                            <div class="depart-btn-title">
+                                <a class="office-btn b">Department of Internal Affairs</a>
+                                <div id="yawa2" class="kulira"><i class="fas fa-arrow-right"></i></div>
+                            </div>
+                            <div class="depart-content two">
+                                <div class="row department-right-left">
+                                    <div class="col-md-4">
+                                        <p>Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt,
+                                            praesentium.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </main>
+
+        <!-- THE FOOTER -->
+        <footer>
+            <div class="social-media">
+                <div class="container">
+                    <div class="social-media-accounts">
+                        <div class="social-btn">
+                            <a href=""><img id="btnSocialMedia" src="./img/sample.png" alt=""></a>
+                            <a href=""><img id="btnSocialMedia" src="./img/sample.png" alt=""></a>
+                            <a href=""><img id="btnSocialMedia" src="./img/sample.png" alt=""></a>
+                            <a href=""><img id="btnSocialMedia" src="./img/sample.png" alt=""></a>
+                        </div>
+                        <div class="developers">
+                            <samp>© Developed by Xavier University - Office of Management Information System</samp>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JAVASCRIPT FILES -->
+        <script src="../script/about.js"></script>
+        <script src="anijs-min.js"></script>
+
+    </section>
+
+    <!-- THIS IS FOR MOBILE VERSION NAV LINKS -->
+    <div class="mobile-nav-link" id="theMobileNavLink">
+        <div class="mobile-title">
+            <h4 id="theMobileTitle">CSG | MENU</h4>
+            <a id="theClose" onclick="closeMenu()"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="mobile-links">
+            <div class="mobile-search-links">
+                <input type="text" name="" id="theSearchBar">
+                <button>Search</button>
+            </div>
+            <ul class="links-for-mobile">
+                <a href="">
+                    <li id="TheMobileLinks">Home</li>
+                </a>
+                <a href="./event.html">
+                    <li id="TheMobileLinks">Event</li>
+                </a>
+                <div class="nav-dropdown-hover">
+                    <a id="theLinksHoverMobile">CSG</a>
+                    <div class="nav-drop-down-mobile" id="navDropDownMobile">
+                        <a href="./about.html">About CSG</a>
+                        <a href="">Offices & Transparancy</a>
+                        <a href="">Iniatives</a>
+                    </div>
+                </div>
+                <a href="./contact.html">
+                    <li id="TheMobileLinks">Contacts</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
