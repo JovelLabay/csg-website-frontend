@@ -5,4 +5,4 @@
 
 ## UPDATES
 
-- `Further updates will be added in the near future.`
+`Further updates will be added in the near future`
