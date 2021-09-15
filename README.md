@@ -2,6 +2,7 @@
 ## RULES
 
 - You are not allowed to push stuff to the master
+- Use this branch naming convention `feature <titleName>`.
 
 ## UPDATES
 
