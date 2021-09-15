@@ -135,26 +135,12 @@ body{
     }
 
     // FOR THE MESSAGE US
-    .message{
-        margin: 1rem 0;
+    .message-main{
+        margin: 2rem 1rem;
 
-        .after::after{
-            content: 'sdfsd';
-            border-right: 2px solid;
-            
-            .message-left{
-                padding: 1rem 1rem;
-                text-align: center;
-            }
-        }
-
-        .message-right{
-            padding: 1rem 3rem;
-
-            .first-name{
-                display: flex;
-                flex-direction: column;
-            }
+        .message-left{
+            background-color: orange;
+            text-align: center;
         }
     }
 

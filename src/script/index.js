@@ -32,3 +32,8 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 }
+
+// ADDED COMPONENTS FOR BETTER DEBUGGING
+$("#navigation").load("./src/components/Navigation.html");
+$("#footer").load("./src/components/Footer.html");
+$("#imgCarousel").load("./src/components/ImgCarousel.html");

@@ -24,51 +24,13 @@
     <section id="windowEffect">
 
         <!-- FOR THE HEADER OR NAVIGATION BAR -->
-        <nav>
-            <div class="navigation" id="theNavigation">
-                <div class="container nav">
-                    <!-- THIS IS FOR NAV LOGO -->
-                    <div class="logo">
-                        <a href=""><img id="theLogo" src="./img/sample.png" alt=""></a>
-                    </div>
-                    <!-- THIS IS FOR NAV LINKS -->
-                    <div class="links">
-                        <a id="theLinks" href="">Home</a>
-                        <a id="theLinks" href="./src/pages/event.html">Events</a>
-                        <div class="nav-dropdown-hover">
-                            <a id="theLinksHover">CSG <i class="fas fa-sort-down"></i></a>
-                            <div class="nav-drop-down">
-                                <a href="./pages/about.html">About CSG</a>
-                                <a href="">Offices & Transparancy</a>
-                                <a href="">Iniatives</a>
-                            </div>
-                        </div>
-                        <a id="theLinks" href="./pages/contact.html">Contact</a>
-                    </div>
-                    <!-- THIS IS FOR NAV SEARCH -->
-                    <div class="search">
-                        <div class="nav-search">
-                            <input type="text" name="" id="theSearchBar">
-                            <button>Search</button>
-                        </div>
-                        <a id="theSearchLink"><i class="fas fa-search"></i></a>
-                    </div>
-                    <!-- THIS IS FOR NAV MENU BUTTON WHEN MOBILE -->
-                    <div class="mobile-menu">
-                        <a id="theMobileMenu" onclick="openMenu()"><i class="fas fa-bars"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <nav id="navigation"></nav>
 
         <!-- FOR THE MAIN CONTENT -->
         <main>
             <!-- FOR THE CAROUSEL -->
-            <div class="carousel-content">
-                <div class="image-carousel">
-                    <h2>IMG CAROUSEL</h2>
-                </div>
-            </div>
+            <div id="imgCarousel"></div>
+
             <!-- FOR THE EVENTS CONTENT -->
             <div class="event-content">
                 <div class="container eventing-content">
@@ -146,23 +108,7 @@
         </main>
 
         <!-- FOR THE FOOTER CONTENT -->
-        <footer>
-            <div class="social-media">
-                <div class="container">
-                    <div class="social-media-accounts">
-                        <div class="social-btn">
-                            <a href=""><img id="btnSocialMedia" src="./img/sample.png" alt=""></a>
-                            <a href=""><img id="btnSocialMedia" src="./img/sample.png" alt=""></a>
-                            <a href=""><img id="btnSocialMedia" src="./img/sample.png" alt=""></a>
-                            <a href=""><img id="btnSocialMedia" src="./img/sample.png" alt=""></a>
-                        </div>
-                        <div class="developers">
-                            <samp>© Developed by Xavier University - Office of Management Information System</samp>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        <footer id="footer"></footer>
 
         <!-- THIS IS THE JS FILE. THIS IS FOR SEPARATION OF CONCERNS -->
         <script src="./src/script/index.js"></script>
@@ -185,18 +131,18 @@
                 <a href="">
                     <li id="TheMobileLinks">Home</li>
                 </a>
-                <a href="./pages/event.html">
+                <a href="./src/pages/event.html">
                     <li id="TheMobileLinks">Event</li>
                 </a>
                 <div class="nav-dropdown-hover">
                     <a id="theLinksHoverMobile">CSG</a>
                     <div class="nav-drop-down-mobile" id="navDropDownMobile">
-                        <a href="./pages/about.html">About CSG</a>
+                        <a href="./src/pages/about.html">About CSG</a>
                         <a href="">Offices & Transparancy</a>
                         <a href="">Iniatives</a>
                     </div>
                 </div>
-                <a href="./pages/contact.html">
+                <a href="./src/pages/contact.html">
                     <li id="TheMobileLinks">Contacts</li>
                 </a>
             </ul>

@@ -160,32 +160,13 @@ body .carousel-content .image-carousel {
   height: 300px;
 }
 
-body .message {
-  margin: 1rem 0;
+body .message-main {
+  margin: 2rem 1rem;
 }
 
-body .message .after::after {
-  content: 'sdfsd';
-  border-right: 2px solid;
-}
-
-body .message .after::after .message-left {
-  padding: 1rem 1rem;
+body .message-main .message-left {
+  background-color: orange;
   text-align: center;
-}
-
-body .message .message-right {
-  padding: 1rem 3rem;
-}
-
-body .message .message-right .first-name {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 body .social-media-accounts {

@@ -33,3 +33,28 @@ window.onscroll = function () {
   }
   prevScrollpos = currentScrollPos;
 }
+
+// DEPARTMENT DROP DOWNS
+let office = document.querySelectorAll(".office-btn").length;
+for (var i = 0; i < office; i++){
+  document.querySelectorAll(".office-btn")[i].addEventListener("click", yawa);
+}
+function yawa() {
+  let tuf = this.innerHTML;
+  switch (tuf) {
+    case "Department of External Affairs":
+      document.getElementById("yawa1").classList.toggle("piste");
+      $(".one").slideToggle("slow");
+      break;
+  
+    default:
+      document.getElementById("yawa2").classList.toggle("piste");
+      $(".two").slideToggle("slow");
+      break;
+  }
+}
+
+// ADDED COMPONENTS FOR BETTER DEBUGGING
+$("#navigation").load("../components/Navigation.html");
+$("#footer").load("../components/Footer.html");
+$("#imgCarousel").load("../components/ImgCarousel.html");
