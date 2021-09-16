@@ -1,0 +1,77 @@
+// DECLARATION OF COLORS
+$colors: ();
+
+// DECLARTION OF IMG SIZES
+
+// DECLARATION OF HTML PROPERTIES
+html {
+
+    // THIS IS FOR THE BODY
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+
+    // FOR THE ABOUT CONTENT
+    .about-csg {
+        margin: 1rem 0;
+
+        #theCsgAboutImg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            #imgCsg {
+                border: 1px solid;
+                padding: 5rem 5rem;
+            }
+        }
+
+        #theCsgAbout {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    // DEPARTMENT OFFICES
+    .department-office{
+        margin: 2rem 0;
+
+        .department-title{
+            margin: 1rem 0;
+
+        }
+
+        .department{
+            border: 1px solid;
+            padding: 0.4rem 2rem;
+            margin: 0.5rem 0;
+
+            .depart-btn-title{
+                padding: 0.5rem 0;
+                display: flex;
+                justify-content: space-between;
+
+                .kulira{
+                    transition: 0.5s ease 0s;
+                }
+
+                .piste{
+                    transform: rotate(90deg);
+                    
+                }
+            }
+
+            .depart-content{
+                display: none;
+                border-top: 1px solid;
+                padding-top: 0.5rem;
+            }
+        }
+    }
+}

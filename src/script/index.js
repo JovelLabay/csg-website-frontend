@@ -37,3 +37,8 @@ window.onscroll = function () {
 $("#navigation").load("./src/components/Navigation.html");
 $("#footer").load("./src/components/Footer.html");
 $("#imgCarousel").load("./src/components/ImgCarousel.html");
+
+// const number = ['jovel', 'labay', 'john', 'apple', 'jucy', 'porn', 'dick'];
+// const number2 = number.length;
+// const number3 = Math.floor(Math.random() * number2)
+// console.log('Index card: \n' + "'" +number[number3] + "'")

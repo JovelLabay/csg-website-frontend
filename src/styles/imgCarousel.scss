@@ -1,0 +1,34 @@
+// DECLARATION OF COLORS
+$colors: ();
+
+// DECLARTION OF IMG SIZES
+
+// DECLARATION OF HTML PROPERTIES
+html{
+
+    // THIS IS FOR THE BODY
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+
+    // FOR THE CAROUSEL CONTENT
+    .carousel-content {
+        margin-top: 5rem;
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+
+        .image-carousel {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 300px;
+        }
+    }
+}

@@ -1,10 +1,10 @@
-// COLORS
+// DECLARATION OF COLORS
+$colors: ();
 
-// UNIFORM IMAGES
+// DECLARTION OF IMG SIZES
 
-// PROPERTIES
-
-html{
+// DECLARATION OF HTML PROPERTIES
+html {
 
     // THIS IS FOR THE BODY
     box-sizing: border-box;
@@ -13,13 +13,13 @@ html{
 
 }
 
-body{
+body {
 
     // FOR BLUR EFFECT IN MOBILE
     .mobile-effect {
         filter: blur(3px);
         -webkit-filter: blur(3px);
-        transition: 1s ease 0s;
+        transition: 1s ease;
     }
 
     // NAVIGATION
@@ -116,51 +116,6 @@ body{
             }
         }
     }
-
-    // FOR THE CAROUSEL CONTENT
-    .carousel-content {
-        margin-top: 5rem;
-        display: flex;
-        justify-content: center;
-        border-top: 1px solid;
-        border-bottom: 1px solid;
-
-        .image-carousel {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            height: 300px;
-        }
-    }
-
-    // FOR THE MESSAGE US
-    .message-main{
-        margin: 2rem 1rem;
-
-        .message-left{
-            background-color: orange;
-            text-align: center;
-        }
-    }
-
-        // FOR THE SOCIAL
-    .social-media-accounts {
-        padding: 1rem 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-        #btnSocialMedia {
-            width: 30px;
-            height: 30px;
-        }
-
-        .developers {
-            text-align: center;
-        }
-    }
-
 }
 
 // DECLARATION OF MEDIA QUERY

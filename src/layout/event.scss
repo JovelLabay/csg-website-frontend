@@ -1,0 +1,43 @@
+// DECLARATION OF COLORS
+$colors: ();
+
+// DECLARTION OF IMG SIZES
+
+// DECLARATION OF HTML PROPERTIES
+html{
+
+    // THIS IS FOR THE BODY
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+
+    // FOR THE MAIN CONTENTS
+    .main-contents{
+        padding: 2rem 0;
+        border-bottom: 1px solid;
+
+        .main-title{
+            text-align: center;
+            padding-top: 1rem;
+        }
+
+        .col-md-4{
+            text-align: center;
+            margin-top: 1rem;
+
+            .event-container{
+                border: 1px solid;
+                padding: 1rem 1rem;
+
+                #eventImg{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+        }
+    }
+}

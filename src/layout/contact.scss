@@ -1,0 +1,27 @@
+// COLORS
+
+// UNIFORM IMAGES
+
+// PROPERTIES
+
+html{
+
+    // THIS IS FOR THE BODY
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+
+    // FOR THE MESSAGE US
+    .message-main{
+        margin: 2rem 1rem;
+
+        .message-left{
+            background-color: orange;
+            text-align: center;
+        }
+    }
+}

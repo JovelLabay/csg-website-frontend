@@ -1,0 +1,32 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body .main-contents {
+  padding: 2rem 0;
+  border-bottom: 1px solid;
+}
+
+body .main-contents .main-title {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+body .main-contents .col-md-4 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+body .main-contents .col-md-4 .event-container {
+  border: 1px solid;
+  padding: 1rem 1rem;
+}
+
+body .main-contents .col-md-4 .event-container #eventImg {
+  width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=event.css.map */

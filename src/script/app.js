@@ -58,3 +58,4 @@ function yawa() {
 $("#navigation").load("../components/Navigation.html");
 $("#footer").load("../components/Footer.html");
 $("#imgCarousel").load("../components/ImgCarousel.html");
+

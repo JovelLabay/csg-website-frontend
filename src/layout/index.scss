@@ -1,0 +1,63 @@
+// DECLARATION OF COLORS
+$colors: ();
+
+// DECLARTION OF IMG SIZES
+
+// DECLARATION OF HTML PROPERTIES
+html{
+
+    // THIS IS FOR THE BODY
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+
+    // FOR THE EVENT CONTENTS
+    .event-title {
+        margin-top: 2rem;
+    }
+
+    .col-md-6 {
+        margin: 2rem 0;
+    }
+
+    // FOR THE ABOUT CONTENT
+    .about-csg {
+        border-top: 1px solid;
+        border-bottom: 1px solid;
+
+        #theCsgAboutImg {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            #imgCsg {
+                border: 1px solid;
+                padding: 5rem 5rem;
+            }
+        }
+
+        #theCsgAbout {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    // FOR THE CONTACT
+    .contact-us {
+        padding: 3rem 0;
+        border-bottom: 1px solid;
+
+        .col-sm-8,
+        .col-sm-4 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

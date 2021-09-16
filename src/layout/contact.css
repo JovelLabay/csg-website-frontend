@@ -1,0 +1,16 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body .message-main {
+  margin: 2rem 1rem;
+}
+
+body .message-main .message-left {
+  background-color: orange;
+  text-align: center;
+}
+/*# sourceMappingURL=contact.css.map */
